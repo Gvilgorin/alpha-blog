@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Gregory V."
+    <meta name="description" content="Basic web page made for a udemy corse to learn ruby on rails"
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <%= link_to image_tag('home-button.png',width: 50), root_path%>
+        <%= link_to image_tag('about-button.png',width: 50), about_path%>
+      </nav>
+        <h1>Welcome to My Mind!</h1>
+        <%= image_tag 'random-facts.jpg'%>
+    </header>
+    <section>
+        <h2>List of Fact's</h2>
+        <ol>
+          <li>If you have 3 quarters, 4 dimes, and 4 pennies, you have $1.19. You also have the largest amount of money in coins without being able to make change for a dollar. </li>
+          <li>The numbers '172' can be found on the back of the U.S. $5 dollar bill in the bushes at the base of the Lincoln Memorial.</li>
+          <li>President Kennedy was the fastest random speaker in the world with upwards of 350 words per minute.</li>
+          <li>In the average lifetime, a person will walk the equivalent of 5 times around the equator.</li>
+          <li>The 57 on Heinz ketchup bottles represents the number of varieties of pickles the company once had.</li>
+          <li>Cats sleep 16 to 18 hours per day.</li>
+        </ol>
+    </section>
+    <footer>&copy; Greg Learns Co. &bull; I hope you enjoyed! &bull; leave a review</footer>
+  </body>
+</html>
